@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+            <a id="logo" href="index.html"><span class="log">Сайт</span><i>визитка</i></a>
+            <nav id="mainnav">
+                <ul>
+                    <li class="active"><a href="uslugi.html">Услуги</a></li>
+                    <li><a href="onas.html">О нас</a></li>
+                    <li><a href="clients.html">Клиенты</a></li>
+                    <li><a href="contacs.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" id="contact-form">
+                <div class="form_item">
+                    <label for="topic"><i>Тема</i></label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв/замечание</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name"><i>Имя</i></label><br>
+                    <input type="text" id="name" name="name" placeholder="Имя" required="">
+                </div>
+                <div class="form_item">
+                    <label for="email"><i>E-mail</i></label><br>
+                    <input type="email" id="email" name="email" placeholder="Почта" required="">
+                </div>
+                <div class="form_item">
+                    <label for="textarea"><i>Текст сообщения</i></label><br>
+                    <textarea name="textarea" id="textarea" cols="32" rows="5" required=""></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="date" required="">
+                </div>
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+            </form>
+    
+        </main>
+    <footer>
+        <p class="footer__block">
+        <a href="form.html">Написать нам &#9650;</a> </p>
+        <p class="footer__block">&copy; Новая компания</p>
+        <div class="footer__icons">
+        <a href="https://vk.com/zhabka16" target="_blank"><img src="img/ok.png" alt="" class="footer__img"></a>
+        <a href="https://vk.com/zhabka16" target="_blank"><img src="img/mailru.png" alt="" class="footer__img"></a>
+        <a href="https://vk.com/zhabka16" target="_blank"><img src="img/vk.png" alt="" class="footer__img"></a>
+        </div>
+    </footer>
+</body>
+</html>
